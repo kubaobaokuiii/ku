@@ -1,6 +1,11 @@
 spring:
   application:
     name: eureka-server
+#认证配置信息（用户名与密码）
+  security:
+    user:
+      name: guo
+      password: 123456
 server:
   port: 8761
 eureka:
@@ -9,3 +14,6 @@ eureka:
     register-with-eureka: false
     #由于注册中心的职责就是维护服务实例，它并不需要检索服务，所以也设置为false
     fetch-registry: false
+    #添加认证信息需要添加此配置
+    serviceUrl:
+      defaultZone: http://guo:123456@localhost:8761/eureka/

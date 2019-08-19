@@ -11,6 +11,8 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client-user-service</module>
+        <module>eureka-client-article-service</module>
+        <module>ribbon-native-demo</module>
     </modules>
 
     <!--spring boot的依赖配置-->
@@ -38,6 +40,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+
 
     </dependencies>
 
