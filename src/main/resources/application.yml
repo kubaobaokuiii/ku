@@ -1,0 +1,20 @@
+server:
+  port: ${server.port}
+com:
+  boms:
+    guo:
+      name: guo shaung is best
+
+#显示详细的健康状态信息配置
+management:
+  endpoint:
+    health:
+      show-details: always
+
+#出现错误时，直接抛出异常
+spring:
+  mvc:
+    throw-exception-if-no-handler-found: true
+#不要为我们工程中的资源文件建立映射
+  resources:
+    add-mappings: false
