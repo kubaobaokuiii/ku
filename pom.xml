@@ -13,6 +13,7 @@
         <module>eureka-client-user-service</module>
         <module>eureka-client-article-service</module>
         <module>ribbon-native-demo</module>
+        <module>spring-rest-template</module>
     </modules>
 
     <!--spring boot的依赖配置-->

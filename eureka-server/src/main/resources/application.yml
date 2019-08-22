@@ -2,10 +2,10 @@ spring:
   application:
     name: eureka-server
 #认证配置信息（用户名与密码）
-  security:
-    user:
-      name: guo
-      password: 123456
+#  security:
+#    user:
+#      name: guo
+#      password: 123456
 server:
   port: 8761
 eureka:

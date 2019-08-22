@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ribbon-native-demo" />
         <module name="eureka-server" />
+        <module name="spring-rest-template" />
         <module name="eureka-client-article-service" />
         <module name="eureka-client-user-service" />
       </profile>
@@ -20,6 +21,7 @@
       <module name="eureka-server" options="-parameters" />
       <module name="ribbon-native-demo" options="-parameters" />
       <module name="spring-boot-web" options="" />
+      <module name="spring-rest-template" options="-parameters" />
     </option>
   </component>
 </project>
